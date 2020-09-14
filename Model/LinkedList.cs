@@ -110,7 +110,11 @@ namespace Linked_list.Model
             Count++;
         }
 
-
+        /// <summary>
+        /// Вставить данные после конечного значния 
+        /// </summary>
+        /// <param name="target"></param>
+        /// <param name="data"></param>
         public void InsertAfther(T target, T data)
         {
             if (Head != null)
